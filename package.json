@@ -1,0 +1,57 @@
+{
+  "name": "electron-basic",
+  "version": "1.0.0",
+  "description": "Basic electron app w/ self updates.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder -w",
+    "build-mac": "sudo electron-builder -m",
+    "release-windows": "electron-builder -w -p onTagOrDraft",
+    "release-mac": "sudo electron-builder -m -p onTagOrDraft"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benlantaff/electron-basic.git"
+  },
+  "keywords": [
+    "Node.js",
+    "Electron.js"
+  ],
+  "build": {
+    "appId": "benlantaff.github.com",
+    "copyright": "Copyright Ben Lantaff",
+    "publish": {
+      "provider": "github",
+      "owner": "benlantaff",
+      "token": "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"
+    },
+    "mac": {
+      "type": "distribution",
+      "hardenedRuntime": true,
+      "entitlements": "build/entitlements.mac.plist",
+      "entitlementsInherit": "build/entitlements.mac.plist",
+      "gatekeeperAssess": false,
+      "category": "public.app-category.developer-tools",
+      "extendInfo": {
+        "NSAppTransportSecurity": {
+          "NSAllowsArbitraryLoads": true
+        }
+      }
+    }
+  },
+  "author": "Ben Lantaff",
+  "license": "GNU GENERAL PUBLIC LICENSE v3.0",
+  "bugs": {
+    "url": "https://github.com/benlantaff/electron-basic/issues"
+  },
+  "homepage": "https://github.com/benlantaff/electron-basic#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "electron-log": "^5.0.0-beta.16",
+    "electron-updater": "^5.3.0"
+  },
+  "devDependencies": {
+    "electron": "^23.1.1"
+  }
+}
