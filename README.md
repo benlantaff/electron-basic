@@ -2,7 +2,7 @@
 
 Basic electron app w/ self updates.
 
-![electron-basic](https://raw.githubusercontent.com/benlantaff/electron-basic/icon.png)
+<img src="https://placekitten.com/500/500" alt="Kitten_Here">
 
 # Getting started
 
