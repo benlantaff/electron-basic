@@ -2,7 +2,7 @@
 
 Basic electron app w/ self updates.
 
-![electron-basic](https://raw.githubusercontent.com/benlantaff/electron-basic/main/icon.png)
+![electron-basic](https://raw.githubusercontent.com/benlantaff/electron-basic/icon.png)
 
 # Getting started
 
