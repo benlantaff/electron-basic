@@ -2,9 +2,7 @@
 
 Basic electron app w/ self updates.
 
-<p align="center">
 ![Kitten](/icon.png)
-</p>
 
 # Getting started
 
