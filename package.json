@@ -1,6 +1,6 @@
 {
   "name": "electron-basic",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Basic electron app w/ self updates.",
   "main": "main.js",
   "scripts": {
@@ -24,7 +24,7 @@
     "publish": {
       "provider": "github",
       "owner": "benlantaff",
-      "token": "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"
+      "token": "<< REPLACE ME WITH YOUR GITHUB TOKEN >>"
     },
     "mac": {
       "type": "distribution",
