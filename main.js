@@ -19,6 +19,7 @@ function createWindow() {
     resizable: false,
     webSecurity: false,
     show: false,
+    icon: __dirname + "/icon.png",
     webPreferences: {
       nodeIntegration: true,
       contextIsolation: false,

@@ -1,6 +1,6 @@
 {
   "name": "electron-basic",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Basic electron app w/ self updates.",
   "main": "main.js",
   "scripts": {
